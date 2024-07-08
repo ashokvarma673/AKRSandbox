@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2798045</versionUuid>
+    <interface>
+        <name>AKRS_ui_siteForm</name>
+        <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2753457</uuid>
+        <description></description>
+        <parentUuid>c41b3fc1-9b20-48ac-aec1-8ecfc1df812e</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>#"SYSTEM_SYSRULES_sectionLayout_v1"(
+  label: "Course Registration",
+  contents: {
+    #"SYSTEM_SYSRULES_richTextDisplayField"(
+      value: #"SYSTEM_SYSRULES_richTextItem_v1"(
+        text: "Start Registration",
+        link: #"SYSTEM_SYSRULES_startProcessLink"(processModel: #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2753463"[2])
+      )
+    )
+  }
+)</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+        <isCustom>false</isCustom>
+    </interface>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2798045"/>
+    </history>
+</contentHaul>

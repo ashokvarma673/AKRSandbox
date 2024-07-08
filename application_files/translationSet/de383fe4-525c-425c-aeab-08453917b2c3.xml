@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationSetHaul xmlns:a="http://www.appian.com/ae/types/2009">
+  <versionUuid>ec4ce613-f661-4d88-b5e5-f4ff6479d6f1</versionUuid>
+  <translationSet a:uuid="de383fe4-525c-425c-aeab-08453917b2c3" name="AKRS Translations">
+    <a:description/>
+    <a:enabledLocales>
+      <a:localeLanguageTag>fr-FR</a:localeLanguageTag>
+    </a:enabledLocales>
+    <a:enabledLocales>
+      <a:localeLanguageTag>en-US</a:localeLanguageTag>
+    </a:enabledLocales>
+    <a:enabledLocales>
+      <a:localeLanguageTag>es</a:localeLanguageTag>
+    </a:enabledLocales>
+    <a:defaultLocale>
+      <a:localeLanguageTag>en-US</a:localeLanguageTag>
+    </a:defaultLocale>
+  </translationSet>
+  <roleMap>
+    <role name="translation_set_administrator">
+      <users/>
+      <groups>
+        <groupUuid>00575cf0-3440-4cf2-b335-b0c275307002</groupUuid>
+      </groups>
+    </role>
+    <role name="translation_set_viewer">
+      <users/>
+      <groups>
+        <groupUuid>0f00e2a8-413b-491d-9d6b-7c3108956a4d</groupUuid>
+      </groups>
+    </role>
+  </roleMap>
+  <history>
+    <historyInfo versionUuid="ec4ce613-f661-4d88-b5e5-f4ff6479d6f1"/>
+  </history>
+</translationSetHaul>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_e-0000ebca-747c-8000-9b52-01075c01075c_7452</versionUuid>
+    <group>
+        <name>AKRS Designers</name>
+        <securityMap>SECURITYMAP_TEAM</securityMap>
+        <uuid>_e-0000ebca-747c-8000-9b52-01075c01075c_7451</uuid>
+        <groupTypeUuid>SYSTEM_GROUP_TYPE_CUSTOM</groupTypeUuid>
+        <parentUuid>0f00e2a8-413b-491d-9d6b-7c3108956a4d</parentUuid>
+        <description></description>
+        <delegatedCreation>false</delegatedCreation>
+        <memberPolicy>MEMBERPOLICY_CLOSED</memberPolicy>
+        <viewingPolicy>VIEWINGPOLICY_LOW</viewingPolicy>
+        <attributes/>
+    </group>
+    <members>
+        <users/>
+        <groups/>
+    </members>
+    <admins>
+        <users/>
+        <groups/>
+    </admins>
+    <ruleSet/>
+    <history>
+        <historyInfo versionUuid="_e-0000ebca-747c-8000-9b52-01075c01075c_7452"/>
+    </history>
+</groupHaul>

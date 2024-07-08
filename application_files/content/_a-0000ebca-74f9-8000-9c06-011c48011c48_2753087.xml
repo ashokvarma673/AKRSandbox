@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2753426</versionUuid>
+    <interface>
+        <name>AKRS_trainingRegistrationForm</name>
+        <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2753087</uuid>
+        <description>Training Registration form</description>
+        <parentUuid>c41b3fc1-9b20-48ac-aec1-8ecfc1df812e</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>#"SYSTEM_SYSRULES_formLayout_v1"(
+  label: "Training Registration",
+  contents: {
+    #"SYSTEM_SYSRULES_boxLayout"(
+      label: "Basic Information",
+      contents: {
+        #"SYSTEM_SYSRULES_columnsLayout"(),
+        #"SYSTEM_SYSRULES_columnsLayout"(
+          columns: {
+            #"SYSTEM_SYSRULES_columnLayout"(
+              {
+                #"SYSTEM_SYSRULES_textField"(
+                  label: "First Name",
+                  value: ri!trainingRegistration.firstname,
+                  required: true,
+                  saveInto: ri!trainingRegistration.firstname
+                )
+              }
+            ),
+            #"SYSTEM_SYSRULES_columnLayout"(
+              #"SYSTEM_SYSRULES_textField"(
+                label: "Last Name",
+                value: ri!trainingRegistration.lastName,
+                required: true,
+                saveInto: ri!trainingRegistration.lastName
+              )
+            )
+          }
+        ),
+        #"SYSTEM_SYSRULES_columnsLayout"(),
+        #"SYSTEM_SYSRULES_columnsLayout"(
+          columns: {
+            #"SYSTEM_SYSRULES_columnLayout"(
+              #"SYSTEM_SYSRULES_textField"(
+                label: "Email",
+                value: ri!trainingRegistration.email,
+                saveInto: ri!trainingRegistration.email,
+                required: true
+              )
+            ),
+            #"SYSTEM_SYSRULES_columnLayout"(
+              #"SYSTEM_SYSRULES_radioButtonField_v1"(
+                label: "Course Selection",
+                choiceLabels: { "Appian", "Java", "AI", "AWS" },
+                choiceValues: { "Appian", "Java", "AI", "AWS" },
+                value: ri!trainingRegistration.courseName,
+                saveInto: ri!trainingRegistration.courseName,
+                choiceLayout: "COMPACT",
+                required: true
+              )
+            )
+          }
+        ),
+        
+      }
+    ),
+    
+  },
+  buttons: #"SYSTEM_SYSRULES_ButtonLayout"(
+    primaryButtons: #"SYSTEM_SYSRULES_buttonWidget_v1"(
+      label: "Submit",
+      submit: true,
+      value: "Submit",
+      saveInto: ri!buttonAction
+    ),
+    secondaryButtons: #"SYSTEM_SYSRULES_buttonWidget_v1"(
+      label: "Cancel",
+      submit: true,
+      value: "Cancel",
+      saveInto: ri!buttonAction
+    ),
+    
+  )
+)</definition>
+        <namedTypedValue>
+            <name>trainingRegistration</name>
+            <description>AKRS_TRAINING_REGISTRATION</description>
+            <type>
+                <name>AKRS_TRAINING_REGISTRATION</name>
+                <namespace>urn:com:appian:types:AKRS</namespace>
+            </type>
+        </namedTypedValue>
+        <namedTypedValue>
+            <name>buttonAction</name>
+            <type>
+                <name>string</name>
+                <namespace>http://www.w3.org/2001/XMLSchema</namespace>
+            </type>
+            <value/>
+        </namedTypedValue>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+        <isCustom>false</isCustom>
+    </interface>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2753426"/>
+    </history>
+</contentHaul>

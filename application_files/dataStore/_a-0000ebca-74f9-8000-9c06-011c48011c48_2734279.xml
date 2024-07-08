@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2753410</versionUuid>
+    <dataStore>
+        <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2734279</uuid>
+        <name>AKRS Data Store</name>
+        <description></description>
+        <dataSourceKey>jdbc/Appian</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>c803c643-6d00-4431-98ab-4fbe67f191d4</uuid>
+                <name>AKRS_TRAINING_ATTENDENCE</name>
+                <type>{urn:com:appian:types:AKRS}AKRS_TRAINING_ATTENDENCE</type>
+            </entity>
+            <entity>
+                <uuid>8fc7a33f-23db-40d3-8af9-0e2bc289a579</uuid>
+                <name>AKRS_TRAINING_REGISTRATION</name>
+                <type>{urn:com:appian:types:AKRS}AKRS_TRAINING_REGISTRATION</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role inherit="false" allowForAll="false" name="administrators">
+            <users/>
+            <groups>
+                <groupUuid>00575cf0-3440-4cf2-b335-b0c275307002</groupUuid>
+            </groups>
+        </role>
+        <role inherit="false" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="readers">
+            <users/>
+            <groups>
+                <groupUuid>0f00e2a8-413b-491d-9d6b-7c3108956a4d</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2753410"/>
+    </history>
+</dataStoreHaul>

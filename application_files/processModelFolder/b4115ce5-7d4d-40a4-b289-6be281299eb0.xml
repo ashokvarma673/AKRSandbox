@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<processModelFolderHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>d225780c-1671-4fc7-a27f-159f5cf65aa0</versionUuid>
+    <processModelFolder>
+        <name>AKRS Process Models</name>
+        <uuid>b4115ce5-7d4d-40a4-b289-6be281299eb0</uuid>
+        <description>Stores process models for the application</description>
+    </processModelFolder>
+    <roleMap>
+        <role name="ADMIN_OWNER">
+            <users/>
+            <groups>
+                <groupUuid>00575cf0-3440-4cf2-b335-b0c275307002</groupUuid>
+            </groups>
+        </role>
+        <role name="EDITOR">
+            <users/>
+            <groups/>
+        </role>
+        <role name="EXPLICIT_NONMEMBER">
+            <users/>
+            <groups/>
+        </role>
+        <role name="VIEWER">
+            <users/>
+            <groups>
+                <groupUuid>0f00e2a8-413b-491d-9d6b-7c3108956a4d</groupUuid>
+            </groups>
+        </role>
+        <role name="MANAGER">
+            <users/>
+            <groups/>
+        </role>
+        <role name="INITIATOR">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="d225780c-1671-4fc7-a27f-159f5cf65aa0"/>
+    </history>
+</processModelFolderHaul>

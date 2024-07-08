@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2734711</versionUuid>
+    <interface>
+        <name>AKRS_trainingAttendanceDashboard</name>
+        <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2734273</uuid>
+        <description>Training Attendance Dashboard</description>
+        <parentUuid>c41b3fc1-9b20-48ac-aec1-8ecfc1df812e</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>#"SYSTEM_SYSRULES_sectionLayout_v1"(
+  contents: {
+    #"SYSTEM_SYSRULES_cardLayout"(
+      contents: if(
+        #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2734671",
+        {
+          #"SYSTEM_SYSRULES_richTextDisplayField"(
+            value: #"SYSTEM_SYSRULES_richTextItem_v1"(
+              text: "Training Attendence",
+              size: "MEDIUM_PLUS",
+              color: "ACCENT"
+            ),
+            align: "CENTER"
+          ),
+          #"SYSTEM_SYSRULES_gridField_v2"(
+            labelPosition: "ABOVE",
+            data: #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2734429"(),
+            columns: {
+              #"SYSTEM_SYSRULES_gridColumn"(label: "ID", value: fv!row.id),
+              #"SYSTEM_SYSRULES_gridColumn"(
+                label: "First Name",
+                value: fv!row.firstName
+              ),
+              #"SYSTEM_SYSRULES_gridColumn"(
+                label: "Last Name",
+                value: fv!row.lastName
+              ),
+              #"SYSTEM_SYSRULES_gridColumn"(label: "Email", value: fv!row.email),
+              #"SYSTEM_SYSRULES_gridColumn"(label: "Score", value: "100 %")
+            },
+            emptyGridMessage: "No one Attended the Meeting Yet",
+            validations: {}
+          ),
+          
+        },
+        #"SYSTEM_SYSRULES_richTextDisplayField"(
+          value: #"SYSTEM_SYSRULES_richTextItem_v1"(
+            text: "Waiting For the Trainer to start Training",
+            size: "MEDIUM_PLUS",
+            color: "ACCENT"
+          ),
+          align: "CENTER"
+        )
+      ),
+      shape: "SEMI_ROUNDED"
+    )
+  }
+)</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+        <isCustom>false</isCustom>
+    </interface>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2734505"/>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2734711"/>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2735081"/>
+    </history>
+</contentHaul>

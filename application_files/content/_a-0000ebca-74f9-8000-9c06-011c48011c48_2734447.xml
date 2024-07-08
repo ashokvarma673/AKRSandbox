@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2734477</versionUuid>
+    <interface>
+        <name>AKRS_Home</name>
+        <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2734447</uuid>
+        <description>Home Page</description>
+        <parentUuid>c41b3fc1-9b20-48ac-aec1-8ecfc1df812e</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>{
+  #"SYSTEM_SYSRULES_billboardLayout_v1"(
+    backgroundMedia: #"SYSTEM_SYSRULES_documentImage"(
+      document: #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2734465"
+    ),
+    backgroundMediaPositionHorizontal: "CENTER",
+    backgroundMediaPositionVertical: "MIDDLE",
+    backgroundColor: "#f0f0f0",
+    overlay: #"SYSTEM_SYSRULES_barOverlay"(
+      contents: {}
+    )
+  )
+}</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+        <isCustom>false</isCustom>
+    </interface>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2734477"/>
+    </history>
+</contentHaul>
