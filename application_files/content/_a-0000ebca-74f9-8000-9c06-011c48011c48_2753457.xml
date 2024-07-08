@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2798045</versionUuid>
+    <versionUuid>_a-0000ec3a-7785-8000-9c08-011c48011c48_2823161</versionUuid>
     <interface>
         <name>AKRS_ui_siteForm</name>
         <uuid>_a-0000ebca-74f9-8000-9c06-011c48011c48_2753457</uuid>
@@ -16,14 +16,64 @@
             <unlogged>false</unlogged>
         </visibility>
         <definition>#"SYSTEM_SYSRULES_sectionLayout_v1"(
-  label: "Course Registration",
+  /* label: "Course Registration",*/
   contents: {
-    #"SYSTEM_SYSRULES_richTextDisplayField"(
-      value: #"SYSTEM_SYSRULES_richTextItem_v1"(
-        text: "Start Registration",
-        link: #"SYSTEM_SYSRULES_startProcessLink"(processModel: #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2753463"[2])
+    #"SYSTEM_SYSRULES_billboardLayout_v1"(
+      backgroundMedia: #"SYSTEM_SYSRULES_documentImage"(document: #"_a-0000ec3a-7785-8000-9c08-011c48011c48_2822852"),
+      overlay: #"SYSTEM_SYSRULES_barOverlay"(
+        contents: {
+          #"SYSTEM_SYSRULES_richTextDisplayField"(
+            value: #"SYSTEM_SYSRULES_richTextItem_v1"(
+              text: "Enroll for Course Registration",
+              link: #"SYSTEM_SYSRULES_startProcessLink"(
+                processModel: #"_a-0000ebca-74f9-8000-9c06-011c48011c48_2753463"[2]
+              ),
+              style: "STRONG",
+              size: "MEDIUM_PLUS",
+              color: "POSITIVE"
+            ),
+            align: "CENTER"
+          )
+        },
+        position: "BOTTOM"
+      ),
+      height: "TALL"
+    ),
+    /*  a!columnsLayout(
+      columns: {
+        a!columnLayout(
+          contents: a!richTextDisplayField(
+            value: a!richTextImage(
+              image: a!documentImage(document: cons!AKRS_COURSE_REGISTRATION)
+            ),
+            
+          ),
+          width: "8X"
+        ),
+        a!columnLayout(
+          contents: a!richTextDisplayField(
+            value: a!richTextItem(
+              text: "Enroll for Course Registration",
+              link: a!startProcessLink(
+                processModel: cons!AKRS_PROCESS_MODLES[2]
+              )
+            )
+          ),
+          width: "8X"
+        )
+      }
+    ),*/
+    /*a!richTextDisplayField(
+      value: {
+      a!richTextItem(
+        text: "Enroll for Course Registration",
+        link: a!startProcessLink(
+          processModel: cons!AKRS_PROCESS_MODLES[2]
+        )
       )
-    )
+      }
+    )*/
+    
   }
 )</definition>
         <preferredEditor>interface</preferredEditor>
@@ -58,5 +108,6 @@
     </roleMap>
     <history>
         <historyInfo versionUuid="_a-0000ebca-74f9-8000-9c06-011c48011c48_2798045"/>
+        <historyInfo versionUuid="_a-0000ec3a-7785-8000-9c08-011c48011c48_2823161"/>
     </history>
 </contentHaul>
