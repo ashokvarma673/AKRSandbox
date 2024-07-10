@@ -1,10 +1,10 @@
 Success (6):
 content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 "AKRS class room"
 content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 "AKRS_CLASS_ROOM"
+content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 "AKRS_ui_siteForm"
 content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 "AKRS course registration"
 content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 "AKRS course_registration"
 content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 "AKRS_COURSE_REGISTRATION"
-content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 "AKRS_ui_siteForm"
 
 Referenced precedents that were not exported (3):
 content 177521 56aca1d5-23d5-4de3-92f9-1cbd09d9461d
@@ -12,16 +12,16 @@ content 177518 c41b3fc1-9b20-48ac-aec1-8ecfc1df812e
 content 180209 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753463
 
 Trace:
-2024-07-10 02:46:47.779 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Begin transport.
-2024-07-10 02:46:47.779 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Retrieving object data.
-2024-07-10 02:46:47.788 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Setting uuids of object references.
-2024-07-10 02:46:47.789 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: [Content:id=185478,versionId=-1,name=AKRS_CLASS_ROOM,type=32,subtype=0,uuid=_a-0000ec3a-7785-8000-9c08-011c48011c48_2822852,parent=177518]
-2024-07-10 02:46:47.791 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Begin transport.
-2024-07-10 02:46:47.791 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Retrieving object data.
-2024-07-10 02:46:47.803 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Setting uuids of object references.
-2024-07-10 02:46:47.805 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: Document.forum
-2024-07-10 02:46:47.806 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: Document.parent
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@57349fdb[
+2024-07-10 03:05:20.823 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Begin transport.
+2024-07-10 03:05:20.823 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Retrieving object data.
+2024-07-10 03:05:20.838 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Setting uuids of object references.
+2024-07-10 03:05:20.838 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: [Content:id=185478,versionId=-1,name=AKRS_CLASS_ROOM,type=32,subtype=0,uuid=_a-0000ec3a-7785-8000-9c08-011c48011c48_2822852,parent=177518]
+2024-07-10 03:05:20.843 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Begin transport.
+2024-07-10 03:05:20.843 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Retrieving object data.
+2024-07-10 03:05:20.857 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Setting uuids of object references.
+2024-07-10 03:05:20.857 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: Document.forum
+2024-07-10 03:05:20.857 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: Document.parent
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@420566f[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -30,18 +30,18 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.809 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.811 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Exporting binary resources.
-2024-07-10 02:46:47.962 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Serializing object to XML.
-2024-07-10 02:46:47.962 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Object transported.
-2024-07-10 02:46:47.962 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: Constant.forum
-2024-07-10 02:46:47.963 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: Constant.parent
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@521a4113[
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:20.86 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Exporting binary resources.
+2024-07-10 03:05:21.018 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Serializing object to XML.
+2024-07-10 03:05:21.019 DEBUG content 185477 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822846 Object transported.
+2024-07-10 03:05:21.019 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: Constant.forum
+2024-07-10 03:05:21.019 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: Constant.parent
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@6ec15b7f[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -50,21 +50,22 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Exporting binary resources.
-2024-07-10 02:46:47.967 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Serializing object to XML.
-2024-07-10 02:46:47.969 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Object transported.
-2024-07-10 02:46:47.969 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Begin transport.
-2024-07-10 02:46:47.969 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Retrieving object data.
-2024-07-10 02:46:47.98 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Setting uuids of object references.
-2024-07-10 02:46:47.98 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: Document.forum
-2024-07-10 02:46:47.98 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: Document.parent
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@1f995301[
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Exporting binary resources.
+2024-07-10 03:05:21.022 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Serializing object to XML.
+2024-07-10 03:05:21.024 DEBUG content 185478 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822852 Object transported.
+2024-07-10 03:05:21.024 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Begin transport.
+2024-07-10 03:05:21.024 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Retrieving object data.
+2024-07-10 03:05:21.042 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Setting uuids of object references.
+2024-07-10 03:05:21.042 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: [Content:id=180208,versionId=-1,name=AKRS_ui_siteForm,type=32,subtype=6,uuid=_a-0000ebca-74f9-8000-9c06-011c48011c48_2753457,parent=177518]
+2024-07-10 03:05:21.053 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: Interface.forum
+2024-07-10 03:05:21.054 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: Interface.parent
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@36cf4a0b[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -73,21 +74,21 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.982 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Exporting binary resources.
-2024-07-10 02:46:47.984 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Serializing object to XML.
-2024-07-10 02:46:47.985 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Object transported.
-2024-07-10 02:46:47.985 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Begin transport.
-2024-07-10 02:46:47.985 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Retrieving object data.
-2024-07-10 02:46:47.993 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Setting uuids of object references.
-2024-07-10 02:46:47.993 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: Document.forum
-2024-07-10 02:46:47.994 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: Document.parent
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@1a258112[
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.057 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.058 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Exporting binary resources.
+2024-07-10 03:05:21.058 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Serializing object to XML.
+2024-07-10 03:05:21.058 DEBUG content 185732 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Object transported.
+2024-07-10 03:05:21.058 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Begin transport.
+2024-07-10 03:05:21.058 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Retrieving object data.
+2024-07-10 03:05:21.067 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Setting uuids of object references.
+2024-07-10 03:05:21.067 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: Document.forum
+2024-07-10 03:05:21.067 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: Document.parent
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@53d30837[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -96,22 +97,21 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:47.997 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Exporting binary resources.
-2024-07-10 02:46:48.001 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Serializing object to XML.
-2024-07-10 02:46:48.001 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Object transported.
-2024-07-10 02:46:48.001 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Begin transport.
-2024-07-10 02:46:48.001 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Retrieving object data.
-2024-07-10 02:46:48.012 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Setting uuids of object references.
-2024-07-10 02:46:48.012 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: [Content:id=185472,versionId=-1,name=AKRS_COURSE_REGISTRATION,type=32,subtype=0,uuid=_a-0000ec3a-7785-8000-9c08-011c48011c48_2822793,parent=177518]
-2024-07-10 02:46:48.014 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: Constant.forum
-2024-07-10 02:46:48.015 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: Constant.parent
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@487bd753[
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.07 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Exporting binary resources.
+2024-07-10 03:05:21.072 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Serializing object to XML.
+2024-07-10 03:05:21.072 DEBUG content 185471 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822787 Object transported.
+2024-07-10 03:05:21.072 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Begin transport.
+2024-07-10 03:05:21.072 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Retrieving object data.
+2024-07-10 03:05:21.098 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Setting uuids of object references.
+2024-07-10 03:05:21.098 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: Document.forum
+2024-07-10 03:05:21.098 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: Document.parent
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@40b5ecdf[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -120,22 +120,22 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Exporting binary resources.
-2024-07-10 02:46:48.02 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Serializing object to XML.
-2024-07-10 02:46:48.022 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Object transported.
-2024-07-10 02:46:48.022 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Begin transport.
-2024-07-10 02:46:48.022 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Retrieving object data.
-2024-07-10 02:46:48.03 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Setting uuids of object references.
-2024-07-10 02:46:48.03 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: [Content:id=180208,versionId=-1,name=AKRS_ui_siteForm,type=32,subtype=6,uuid=_a-0000ebca-74f9-8000-9c06-011c48011c48_2753457,parent=177518]
-2024-07-10 02:46:48.035 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: Interface.forum
-2024-07-10 02:46:48.036 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: Interface.parent
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3b2d03e4[
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.107 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Exporting binary resources.
+2024-07-10 03:05:21.119 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Serializing object to XML.
+2024-07-10 03:05:21.119 DEBUG content 185484 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822911 Object transported.
+2024-07-10 03:05:21.119 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Begin transport.
+2024-07-10 03:05:21.119 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Retrieving object data.
+2024-07-10 03:05:21.132 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Setting uuids of object references.
+2024-07-10 03:05:21.132 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: [Content:id=185472,versionId=-1,name=AKRS_COURSE_REGISTRATION,type=32,subtype=0,uuid=_a-0000ec3a-7785-8000-9c08-011c48011c48_2822793,parent=177518]
+2024-07-10 03:05:21.149 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: Constant.forum
+2024-07-10 03:05:21.149 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: Constant.parent
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@4e1c025f[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -144,12 +144,12 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Exporting binary resources.
-2024-07-10 02:46:48.039 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Serializing object to XML.
-2024-07-10 02:46:48.04 DEBUG content 185517 _a-0000ebca-74f9-8000-9c06-011c48011c48_2753457 Object transported.
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Exporting binary resources.
+2024-07-10 03:05:21.17 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Serializing object to XML.
+2024-07-10 03:05:21.172 DEBUG content 185485 _a-0000ec3a-7785-8000-9c08-011c48011c48_2822793 Object transported.
